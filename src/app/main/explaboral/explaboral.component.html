@@ -1,6 +1,32 @@
-<p>explaboral works!</p>
-<ngb-accordion>
-    <ngb-panel title="toma">
-        <ng-template ngbPanelContent>aprende</ng-template>
-    </ngb-panel>
-</ngb-accordion>
+
+<div *ngFor="let empresa of miExperiencia" > 
+
+    <div   class="card text-center" >
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3500">
+            <img [src]="empresa.img1" class=" w-100 slidercard" height="140rem" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3500">
+            <img  [src]="empresa.img2" class=" w-100 slidercard" height="140rem" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3500">
+            <img  [src]="empresa.img3" class=" w-100 slidercard" height="140rem"  alt="...">
+          </div>
+        </div>
+      </div> 
+      <div class="card-body">
+          <!-- <fa-icon [icon]="faPencilSquare"></fa-icon> -->
+          <ngb-accordion>
+            <ngb-panel title="{{empresa.name}}">
+                <ng-template ngbPanelContent>
+                    <strong>{{empresa.fecha}}</strong> <p>{{empresa.descripcion}}</p>
+        
+                </ng-template>
+            </ngb-panel>
+        </ngb-accordion>
+        
+      </div>
+    </div>
+
+</div>

@@ -9,6 +9,8 @@ import { FooterComponent } from './footer/footer/footer.component';
 import { AppRoutingModule } from './app-routing.module.ts.module';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { HttpClientModule } from '@angular/common/http';
+import { PorfolioService } from './servicios/porfolio.service';
 
 @NgModule({
   declarations: [
@@ -22,9 +24,10 @@ import { LoginComponent } from './login/login.component';
   imports: [
     BrowserModule,
     NgbModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [PorfolioService],
   bootstrap: [AppComponent,ExplaboralComponent]
 })
 export class AppModule { }

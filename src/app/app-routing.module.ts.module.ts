@@ -8,7 +8,7 @@ import { ExplaboralComponent } from './main/explaboral/explaboral.component';
 
 
 const routes: Routes = [
-  {path: ' ', component:HomeComponent},
+  {path: 'home', component:HomeComponent},
   {path: 'explaboral', component:ExplaboralComponent},
   {path: 'header', component:HeaderComponent},
   {path: 'footer', component:FooterComponent}

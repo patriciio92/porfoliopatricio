@@ -1,0 +1,101 @@
+
+
+{
+    "name":"Patricio Maza",
+    "info":"Developer full stack junior",
+    "fotoPerfil":"assets/img/IMG_20210829_165551~2(1).jpg",
+    "location":"Buenos Aires, Argentina",
+"slider": 
+    {
+        "backImg1": "assets/img/tecno-arg.webp",
+        "backImg2": "assets/img/tecno2.webp",
+        "backImg3": "assets/img/tecno3.png"
+},
+"empresa":[
+ {
+    "name":"Logistica",
+    "img1":"assets/img/envios.png",
+    "img2":"assets/img/envios.png",
+    "img3":"assets/img/envios.png",
+    "fecha":"2021-2022",
+    "puesto":"Repartidor",
+    "descripcion":"Desarrollo en el area de repartos,armado de rutas alternativas,manejo de app de reparto."
+ }, 
+ {
+    "name":"New Bag",
+    "img1":"assets/img/logonewbg.png",
+    "img2":"assets/img/logonewbg.png",
+    "img3":"assets/img/logonewbg.png",
+    "fecha":"2022-2022",
+    "puesto":"Operario ",
+    "descripcion":"Operario en el sector de embalaje y produccion."
+ },
+{
+    "name":"Rapi-stant",
+    "img1":"assets/img/logoRapi.jpg",
+    "img2":"assets/img/logoRapi.jpg",
+    "img3":"assets/img/logoRapi.jpg",
+    "fecha":"2015-2016",
+    "puesto":"Operario Calificado",
+    "descripcion":"Armador de muebles de madera y metalicos para supermercados,sector expedicion preparacion de pedidos,paletizado y embalaje de los mismos. "
+ },
+ {
+         "name":"Taller de herreria",
+         "img1": "assets/img/soldador.jpg",
+         "img2":"assets/img/soldador7.jpg",
+         "img3":"assets/img/soldador1.jpg",
+         "fecha":"2014-2015/2018-2019",
+         "puesto":"Soldador",
+         "descripcion":"Encargado de recibir el material,cortar,armar y soldar carritos y camillas hospitalarias"
+ },
+ {
+    "name":"Electrica A.B",
+    "img1":"assets/img/serviElectricos.jpg",
+    "img2":"assets/img/serviElectricos.jpg",
+    "img3":"assets/img/serviElectricos.jpg",
+    "fecha":"2013-2014",
+    "puesto":"Operario Auxiliar",
+    "descripcion":"Ayudante de instalador de aires acondicionado,instalaciones electricas y cableado de redes UTP."
+ },
+{
+    "name":"Facicar",
+    "img1":"assets/img/facicar.jpg",
+    "img2":"assets/img/facicar.jpg",
+    "img3":"assets/img/facicar.jpg",
+    "fecha":"2012-2013",
+    "puesto":"Operario calificado",
+    "descripcion":"Bobinador de campos de arranque,armado y ensamblado de los campos. "
+ },
+ {
+     "name":"Megacold",
+     "img2":"assets/img/megacld.jpg",
+     "img3":"assets/img/megacld.jpg",
+     "img1":"assets/img/megacld.jpg",
+     "fecha":"2011-2012",
+     "puesto":"Operario Auxiliar",
+     "descripcion":"Operario ayudante en instalaciones, mantenimiento de maquinas para empresas,mecanizado y refrigeracion. "
+  },
+  {
+      "name":"Almacen Bragadense",
+      "img1":"assets/img/almacen.jpg",
+      "img2":"assets/img/almacen.jpg",
+      "img3":"assets/img/almacen.jpg",
+      "fecha":"2010-2012",
+      "puesto":"Atencio a clientes",
+      "descripcion":"Despachante de fiambres,repositor y control de stock "
+   }
+  
+],
+"school":[{
+    "name":"secundaria n°4",
+    "img":"",
+    "ubication":"{location}",
+    "fecha":"17/12/2021",
+    "titulo":"Bachiller"
+
+}]
+
+    
+}
+
+
