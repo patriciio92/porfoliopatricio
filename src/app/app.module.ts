@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
+import { NgbModule,NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ExplaboralComponent } from './main/explaboral/explaboral.component';
 import { HeaderComponent } from './header/header/header.component';
 import { FooterComponent } from './footer/footer/footer.component';
@@ -27,7 +27,7 @@ import { PorfolioService } from './servicios/porfolio.service';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [PorfolioService],
-  bootstrap: [AppComponent,ExplaboralComponent]
+  providers: [PorfolioService,NgbCarouselConfig],
+  bootstrap: [AppComponent,ExplaboralComponent,HeaderComponent]
 })
 export class AppModule { }

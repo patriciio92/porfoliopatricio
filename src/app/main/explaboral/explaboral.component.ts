@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {PorfolioService} from 'src/app/servicios/porfolio.service'
+import {PorfolioService} from 'src/app/servicios/porfolio.service';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+
 
 
 @Component({
@@ -11,12 +13,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 export class ExplaboralComponent implements OnInit {
 miExperiencia:any;
 
-  constructor(private datosPorfolio:PorfolioService,) { }
+  constructor(private dataPorfolio:PorfolioService,) { }
 
   ngOnInit(): void {
-    this.datosPorfolio.obtenerDatos().subscribe(data=>{
+    this.dataPorfolio.obtenerDatos().subscribe(data=>{
       this.miExperiencia=data.empresa;
     });
     NgbModule
+    
+    
   }
 }

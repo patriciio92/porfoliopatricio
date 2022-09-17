@@ -1,0 +1,40 @@
+.font{
+    display: block;
+
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.fotoPerfil{
+    position:relative;
+    width: 200px;
+    height: 200px;
+   margin-top: -90px;
+   margin-right: 30px;
+   float:right;
+   border: 4px #000;
+
+}
+.imag{
+    width: 100%;
+    border-radius: 50%; 
+}
+.descripcion{
+text-align: center;
+}
+.descripcion > h2 {
+    font-size: 24px;
+  
+}
+
+.section{
+    height: 400px;
+}
+.argp{
+    display: flex;
+    position: absolute;
+    right: 14%;
+    width: 30%;
+    height:200%;
+    color: #fff;
+}

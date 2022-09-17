@@ -1,0 +1,14 @@
+.slidercard{
+    border-radius: 10px 10px 0 0;
+    object-fit:fill ;
+}
+.card{
+    width: 16rem; 
+    height: 100%;
+    margin-right: 10px;
+}
+.accordion-button{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+}
