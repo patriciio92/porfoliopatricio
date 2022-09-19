@@ -1,4 +1,4 @@
-import { NgbModule,NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
+import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 import { Component, OnInit } from '@angular/core';
 import { PorfolioService } from 'src/app/servicios/porfolio.service';
 
@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
     constructor(private datosPorfolio:PorfolioService,
       config: NgbCarouselConfig) {
       // customize default values of carousels used by this component tree
-      config.interval = 4000;
+      config.interval = 4000; 
       config.wrap = true;
       config.keyboard = false;
       
@@ -23,7 +23,7 @@ export class HeaderComponent implements OnInit {
     this.datosPorfolio.obtenerDatos().subscribe(data=>{
       this.miPorfolio=data;
     });
-    NgbModule;
+    
   }
 
 }

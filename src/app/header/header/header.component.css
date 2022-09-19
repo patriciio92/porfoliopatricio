@@ -26,12 +26,17 @@ text-align: center;
   
 }
 
-.section{
-    height: 400px;
-}
+
 .argp{
     width: 60%;
     height: 70px;
     object-fit: cover;
     color: #fff;
 }
+@media (min-width:970px){
+.dropdown{
+    display:none;
+}
+}
+
+

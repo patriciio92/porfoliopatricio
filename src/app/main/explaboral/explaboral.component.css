@@ -1,17 +1,20 @@
 .slidercard{
     border-radius: 10px 10px 0 0;
-    object-fit:fill ;
+    object-fit: fill ;
 }
 .card{
     width: 16rem; 
     height: 100%;
     margin-right: 30px;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .accordion-button{
-    font-size: 28px;
-    text-align: center;
+    background: #38be92d6 !important;
+    font-size: larger;
     font-weight: 700;
+    font-family: emoji;
+    color: #fff;
+    
 }
 .edit{
     display: flex;
