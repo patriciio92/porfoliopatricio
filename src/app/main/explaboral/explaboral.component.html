@@ -2,8 +2,11 @@
 <div class="container-md d-flex flex-wrap"   > 
 
     <div *ngFor="let empresa of miExperiencia"  class="card text-center" >
-     
-      <i class="fa-solid fa-pen-to-square"></i>
+     <div class="edit" >
+       <i class="fa-solid fa-pen-to-square iconed"></i>
+       <i class="fa-solid fa-trash-can iconed "></i>
+     </div>
+
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="3500">

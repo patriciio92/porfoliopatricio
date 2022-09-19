@@ -1,11 +1,13 @@
 
  <!-- nav -->
 
- <nav class="navbar navbar-dark bg-dark fixed-top">
-    <div class="container-fluid d-flex">
-    <a class="navbar-brand font"  href="#">{{miPorfolio.name}} </a>
-   <img [src]="miPorfolio.slider.imgnav" alt="ap" class="argp">
-    <button title="s" type="button" class="navbar-toggler "  data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark  d-flex">
+    <div class="container-fluid">
+      <div>
+        <a class="navbar-brand font"  href="#">{{miPorfolio.name}} </a>
+        <img class="navbar-brand argp" [src]="miPorfolio.slider.imgnav" alt="ap" >
+      </div>  
+    <button  type="button" class="navbar-toggler "  data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
         <span  class="navbar-toggler-icon"></span>
       </button>
       <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
@@ -21,11 +23,12 @@
             <li class="nav-item">
               <a class="nav-link" href="#">curriculum vitae</a>
             </li>
+
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                info
               </a>
-              <ul class="dropdown-menu dropdown-menu-dark">
+              <ul class="dropdown-menu" >
                 <li><a class="dropdown-item" href="#">contacto</a></li>
                 <li><a class="dropdown-item" href="#">proyectos</a></li>
                 <li>
@@ -35,10 +38,9 @@
               </ul>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-success" type="submit">Search</button>
-          </form>
+         
+            <button class="btn btn-success" type="submit">login</button>
+         
         </div>
       </div>
     </div>
