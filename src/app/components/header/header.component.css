@@ -5,18 +5,14 @@
 }
 
 .fotoPerfil{
-    position:relative;
-    width: 200px;
-    height: 200px;
-   margin-top: -90px;
+   width: 200px;
    margin-right: 30px;
-   float:right;
-   border: 4px #000;
-
+   float: right;
 }
 .imag{
     width: 100%;
     border-radius: 50%; 
+    box-shadow: 0 0 20px #000, 0 0 20px #000;
 }
 .descripcion{
 text-align: center;
@@ -33,6 +29,25 @@ text-align: center;
     object-fit: cover;
     color: #fff;
 }
+
+.iconedit{
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    
+}
+.iconedit > .ied{
+    padding: 5px;
+    cursor:pointer;
+    
+}
+.ied:hover{
+    font-size: 30px;
+    color: #8f8faa;
+}
+
+
+
 @media (min-width:970px){
 .dropdown{
     display:none;

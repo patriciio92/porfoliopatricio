@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from "./pages/home/HomeComponent";
 
 import { ExplaboralComponent } from './components/main/explaboral/explaboral.component';
+import { EducacionComponent } from './components/main/educacion/educacion.component';
 
 
 const routes: Routes = [
@@ -13,8 +14,9 @@ const routes: Routes = [
   {path: '', component:HomeComponent},
   {path: 'explaboral', component:ExplaboralComponent},
   {path: 'header', component:HeaderComponent},
-  {path: 'footer', component:FooterComponent}
-
+  {path: 'footer', component:FooterComponent},
+  {path: 'educacion', component:EducacionComponent }
+  
 ];
 
 @NgModule({

@@ -41,13 +41,13 @@
     "descripcion":"Armador de muebles de madera y metalicos para supermercados,sector expedicion preparacion de pedidos,paletizado y embalaje de los mismos. "
  },
  {
-         "name":"Taller de herreria",
-         "img1": "assets/img/soldador.jpg",
-         "img2":"assets/img/soldador7.jpg",
-         "img3":"assets/img/soldador1.jpg",
-         "fecha":"2014-2015/2018-2019",
-         "puesto":"Soldador",
-         "descripcion":"Encargado de recibir el material,cortar,armar y soldar carritos y camillas hospitalarias"
+    "name":"Taller de herreria",
+    "img1": "assets/img/soldador.jpg",
+    "img2":"assets/img/soldador7.jpg",
+    "img3":"assets/img/soldador1.jpg",
+    "fecha":"2014-2015/2018-2019",
+    "puesto":"Soldador",
+    "descripcion":"Encargado de recibir el material,cortar,armar y soldar carritos y camillas hospitalarias"
  },
  {
     "name":"Electrica A.B",
@@ -87,14 +87,36 @@
    }
   
 ],
-"school":[{
-    "name":"secundaria n°4",
+"school":[
+   {
+      "name":"argentinaPrograma",
+      "img":"",
+      "ubication":"Ituzaingo, Buenos Aires, Argentina",
+      "fecha":"17/12/2022",
+      "titulo":"full stack junior"
+  
+  },
+   {
+    "name":" escuela secundaria n°4",
     "img":"",
-    "ubication":"{location}",
+    "ubication":"Ituzaingo,Buenos Aires,Argentina",
     "fecha":"17/12/2021",
-    "titulo":"Bachiller"
+    "titulo":"Bachiller "
 
-}]
+},
+{
+   "name":"asistente gerontologico",
+   "img":"",
+   "ubication":"Caballito, Buenos Aires, Argentina",
+   "fecha":"17/12/2020",
+   "titulo":"asistente matriculado"
+
+}
+
+
+
+
+]
 
     
 }

@@ -30,3 +30,15 @@
     margin-right: 10px;
     cursor:pointer;
 }
+.iconed:hover{
+    font-size: 32px;
+    color: #8f8faa;
+}
+
+
+.accordion-button {
+    font-size: 26px;
+    font-family: ui-sans-serif;
+    color: #57a391;
+
+}

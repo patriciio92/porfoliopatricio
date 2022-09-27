@@ -1,12 +1,18 @@
 
 
 
-<h2 .>educacion y cursos realizados : </h2>
 
-<div class="card"   >
-    <div class="card-body">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
+
+<div  class="card"  *ngFor="let school of miExperiencia"   >
+ <div class="iconedit" >
+   <i class="fa-solid fa-pen-to-square ied"></i>
+   <i class="fa-solid fa-trash-can ied "></i>  
+ </div> 
+  <div class="card-body">
+      <h5 class="card-title">{{school.name}}</h5>
+      <p class="card-text">titulo obtenido : {{school.titulo}} <br>
+        fecha: {{school.fecha}} <br>
+        ubicacion: {{school.ubication}} <br>
+        descripcion:    </p>
+      </div>
+</div>

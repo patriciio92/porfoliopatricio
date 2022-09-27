@@ -11,6 +11,7 @@ import { ExplaboralComponent } from './main/explaboral/explaboral.component';
 import { EducacionComponent } from './main/educacion/educacion.component';
 import { NgbAccordion, NgbCarouselConfig, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from '../app-routing.module.ts.module';
+import { HabilidadesComponent } from './main/habilidades/habilidades.component';
 
 
 
@@ -26,6 +27,7 @@ import { AppRoutingModule } from '../app-routing.module.ts.module';
     ExplaboralComponent,
     HeaderComponent,
     FooterComponent,
+    HabilidadesComponent,
     
   ],
   
@@ -53,7 +55,8 @@ import { AppRoutingModule } from '../app-routing.module.ts.module';
       EducacionComponent,
       ExplaboralComponent,
       HeaderComponent,
-      FooterComponent, 
+      FooterComponent,
+      HabilidadesComponent 
      ]
 })
 
