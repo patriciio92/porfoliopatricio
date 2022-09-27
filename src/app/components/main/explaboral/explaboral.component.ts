@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {PorfolioService} from 'src/app/servicios/porfolio.service';
 import {NgbAccordion } from '@ng-bootstrap/ng-bootstrap';
-import { style } from '@angular/animations';
+
 
 
 

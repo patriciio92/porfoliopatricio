@@ -114,8 +114,12 @@
 }
 
 
-
-
+],
+"redes":[
+   {
+      "img":"assets/img/github.png",
+      "url":""
+   }
 ]
 
     
