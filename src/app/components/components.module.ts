@@ -12,6 +12,7 @@ import { EducacionComponent } from './main/educacion/educacion.component';
 import { NgbAccordion, NgbCarouselConfig, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from '../app-routing.module.ts.module';
 import { HabilidadesComponent } from './main/habilidades/habilidades.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -28,6 +29,7 @@ import { HabilidadesComponent } from './main/habilidades/habilidades.component';
     HeaderComponent,
     FooterComponent,
     HabilidadesComponent,
+    LoginComponent,
     
   ],
   

@@ -7,6 +7,7 @@ import { HomeComponent } from "./pages/home/HomeComponent";
 
 import { ExplaboralComponent } from './components/main/explaboral/explaboral.component';
 import { EducacionComponent } from './components/main/educacion/educacion.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 const routes: Routes = [
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path: 'explaboral', component:ExplaboralComponent},
   {path: 'header', component:HeaderComponent},
   {path: 'footer', component:FooterComponent},
-  {path: 'educacion', component:EducacionComponent }
+  {path: 'educacion', component:EducacionComponent },
+  {path: 'login', component:LoginComponent}
   
 ];
 

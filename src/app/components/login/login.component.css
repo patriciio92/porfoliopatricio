@@ -1,0 +1,30 @@
+
+
+h1{ width: 40%;
+    padding: auto;
+    margin: 100px auto;
+
+}
+
+.formwidth{
+    width: 40%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-radius: 5%;
+    background-color: #74d9d9b3;
+}
+
+.btn-aling{
+    position: relative;
+    width: 200px;
+    margin: 20px 30px;
+    padding: 10px 25px;
+}
+.btn-aling2{
+    position: absolute;
+    width: 200px;
+    margin: 20px 30px;
+    padding: 10px 30px;
+}

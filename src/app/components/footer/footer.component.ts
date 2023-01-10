@@ -8,6 +8,11 @@ import {PorfolioService} from 'src/app/servicios/porfolio.service';
 
 export class FooterComponent implements OnInit {
   misRedes:any;
+
+  Redes2 = [{
+    img : 'assets/img/github.png'
+
+}];
   
     constructor(private dataPorfolio:PorfolioService,) { }
     
