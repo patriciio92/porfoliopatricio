@@ -5,9 +5,10 @@
 }
 
 .fotoPerfil{
-   width: 200px;
-   margin-right: 30px;
-   float: right;
+    display: flex;
+    position: relative;
+    width: 200px;
+    
 }
 .imag{
     width: 100%;
@@ -24,6 +25,9 @@ text-align: center;
 
 
 .argp{
+    display: grid;
+    flex-wrap:nowrap;
+    /* position:absolute; */
     width: 60%;
     height: 70px;
     object-fit: cover;
@@ -48,9 +52,33 @@ text-align: center;
 
 
 
-@media (min-width:970px){
+@media screen { [min-width= 970px]
 .dropdown{
     display:none;
+}
+.fotoPerfil{
+    display: grid;
+    background: #5486e196;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    /* margin-right: 30px; */
+    
+}
+.imag{
+    width: 150px;
+    position:relative;
+    border-radius: 80px; 
+    box-shadow: 0 0 20px #000, 0 0 20px #000;
+    left: 50%;
+}
+
+.iconedit{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    font-size: 28px;
+    
 }
 }
 
