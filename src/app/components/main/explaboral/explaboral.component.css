@@ -1,3 +1,12 @@
+
+.div-expempl{
+display:grid;
+grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+gap: 10px;
+justify-items: center;
+}
+
+
 .slidercard{
     border-radius: 10px 10px 0 0;
     object-fit: fill ;
@@ -5,29 +14,24 @@
 .card{
     width: 16rem; 
     height: 100%;
-    margin-right: 30px;
-    margin-top: 60px;
 }
-.accordion-button{
+/* .accordion-button{
     background: #38be92d6 !important;
     font-size: larger;
     font-weight: 700;
     font-family: emoji;
-    color: #fff;
-    
-}
+    color: #fff;    
+} */
 .edit{
     display: flex;
     width: 100%;
     font-size: 30px;
-    position: absolute;
-    z-index: 1;
-    top: -50px;
+    position: relative;
     justify-content: space-between;
-    
+    padding: 10px;
 }
 .iconed{
-    margin-right: 10px;
+    margin:0  10px;
     cursor:pointer;
 }
 .iconed:hover{
