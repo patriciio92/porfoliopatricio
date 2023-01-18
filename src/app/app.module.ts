@@ -1,9 +1,9 @@
 import { ComponentsModule } from './components/components.module';
 import { PagesModule } from './pages/pages.module';
 import { NgModule } from '@angular/core';
-import { NgbModule,NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module.ts.module';
+import { NgbModule,NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 
 
 import { AppComponent } from './app.component';
