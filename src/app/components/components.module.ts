@@ -13,6 +13,7 @@ import { NgbAccordion, NgbCarouselConfig, NgbModule } from '@ng-bootstrap/ng-boo
 import { AppRoutingModule } from '../app-routing.module.ts.module';
 import { HabilidadesComponent } from './main/habilidades/habilidades.component';
 import { LoginComponent } from './login/login.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 
@@ -30,6 +31,7 @@ import { LoginComponent } from './login/login.component';
     FooterComponent,
     HabilidadesComponent,
     LoginComponent,
+    NavbarComponent,
     
   ],
   
@@ -58,7 +60,8 @@ import { LoginComponent } from './login/login.component';
       ExplaboralComponent,
       HeaderComponent,
       FooterComponent,
-      HabilidadesComponent 
+      HabilidadesComponent ,
+      NavbarComponent
      ]
 })
 
