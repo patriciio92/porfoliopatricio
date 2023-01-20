@@ -10,14 +10,31 @@
   <div class="loginContainer">
     <div class="loginForm">
       <h2>Iniciar Sesión</h2>
-     <form action="">
+     <form [formGroup]="form"  (ngSubmit)="onEnviar($event)">
     <div class="inputBox">
-      <input type="text" name="" id="" placeholder="Usuario">
+      <input type="email" formControlName="email" placeholder="Usuario">
       
     </div>
+    <div *ngIf="Mail?.errors  && Mail?.touched">    
+      <p *ngIf="Mail?.hasError('required')" class="error">
+          El email es requerido.
+      </p>
+      <p *ngIf="Mail?.hasError('email')" class="error">
+          El formato del email debe ser válido.
+        </p>
+  </div>
     <div class="inputBox">
-      <input type="Password" name="" id="" placeholder="Contraseña">
+      <input  type="password" formControlName="password" placeholder="Contraseña">
 
+    </div>
+    <!-- Gracias al getter que configuramos en el controlador -->
+    <div *ngIf="Password?.errors  && Password?.touched">
+      <p *ngIf="Password?.hasError('required')" class="error">
+        El password es requerido.
+      </p>
+      <p *ngIf="Password?.errors?.['minlength']" class="error" >
+        El password debe ser de 8 o más caracteres.
+      </p>
     </div>
     <div class="inputBox">
       <input type="submit" value="Ingresar">

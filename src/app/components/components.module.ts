@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 
 import { PorfolioService } from '../servicios/porfolio.service';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
@@ -39,7 +40,9 @@ import { NavbarComponent } from './navbar/navbar.component';
     CommonModule,
     HttpClientModule,
     NgbModule,
-    AppRoutingModule
+    AppRoutingModule,
+     FormsModule,
+      ReactiveFormsModule
   ],
     
     providers: [

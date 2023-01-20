@@ -11,6 +11,13 @@
 body {
     overflow: hidden;
 }
+.error{
+    color:red
+  }
+  
+  .border-danger{
+    border-color: red;
+  }
 section {
    
     display: flex;
